@@ -1,0 +1,59 @@
+{
+  "revenue_loss": {
+    "accuracy": 0.754,
+    "precision": 0.556,
+    "recall": 0.233,
+    "f1": 0.328,
+    "roc_auc": 0.698,
+    "pr_auc": 0.463,
+    "cv_pr_auc_mean": 0.465,
+    "confusion_matrix": [
+      [
+        868,
+        60
+      ],
+      [
+        247,
+        75
+      ]
+    ]
+  },
+  "payment_failure": {
+    "accuracy": 0.807,
+    "precision": 0.566,
+    "recall": 0.25,
+    "f1": 0.347,
+    "roc_auc": 0.764,
+    "pr_auc": 0.468,
+    "cv_pr_auc_mean": 0.449,
+    "confusion_matrix": [
+      [
+        945,
+        49
+      ],
+      [
+        192,
+        64
+      ]
+    ]
+  },
+  "churn": {
+    "accuracy": 0.804,
+    "precision": 0.567,
+    "recall": 0.348,
+    "f1": 0.432,
+    "roc_auc": 0.788,
+    "pr_auc": 0.516,
+    "cv_pr_auc_mean": 0.522,
+    "confusion_matrix": [
+      [
+        912,
+        71
+      ],
+      [
+        174,
+        93
+      ]
+    ]
+  }
+}
